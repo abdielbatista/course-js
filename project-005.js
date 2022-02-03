@@ -1,3 +1,5 @@
+//percorrer objetos
+
 const filme = {
     nome: 'Vingadores',
     ano: 2018,

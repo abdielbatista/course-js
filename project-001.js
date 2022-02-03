@@ -1,3 +1,5 @@
+//trocar valores da variavel
+
 let a = "vermelho"
 let b = "azul"
 

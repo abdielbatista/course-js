@@ -1,3 +1,5 @@
+//verificar velocidade
+
 verificarVelocidade(130)
 
 function verificarVelocidade(v){

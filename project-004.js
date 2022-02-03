@@ -1,3 +1,5 @@
+//exibir se numero é PAR ou IMPAR
+
 quantidade(5);
 
 function quantidade(limite){
