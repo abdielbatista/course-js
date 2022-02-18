@@ -3,27 +3,15 @@
 exibirNumPrimos(15);
 
 function exibirNumPrimos(limite){
+    for(let num = 2; num <= limite; num++){
+        let primo = true;
 
-    let i = 0
-
-    while(i <= limite){
-        
-        let n = 1
-        let c = 0
-
-        while(n <= limite){
-            if(i % n == 0){
-                c = c + 1
+        for(let div = 2; div < num; div++){
+            if(num % div === 0){
+                primo = false;
+                break;
             }
-            n = n + 1
         }
-
-        if (c == 2){
-            console.log(i)
-        }   
-
-        i = i + 1             
-
+        if (primo) console.log(num)
     }
 }
-
