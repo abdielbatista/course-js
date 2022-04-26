@@ -21,5 +21,6 @@ function notebook(marca, cpu, hd, ram){
     }
 }
 
+//chamando objeto
 const not01 = notebook('ACER', 'AMD', '1tb', '8gb')
 console.log(not01)
